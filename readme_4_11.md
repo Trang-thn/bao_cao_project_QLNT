@@ -1,3 +1,11 @@
+# BÁO CÁO NGÀY 4_10
+## Thông tin cá nhân
+
+* Họ và tên: Nguyễn Thị Kiều Trang
+* Lớp: 74DCTT28
+* Branch Git: `trang`
+* Dự án: [QuanLyNhaTro](https://github.com/Trang-thn/QuanLyNhaTro)
+
 #  HỆ THỐNG WEB QUẢN LÝ PHÒNG TRỌ (BOARDING HOUSE MANAGEMENT SYSTEM)
 
 # I. TỔNG THỂ DỰ ÁN
@@ -67,16 +75,17 @@ Hệ thống Web Quản lý Phòng trọ nhằm tự động hóa quy trình qu�
 | `GET` | `/api/v1/users` | Xem danh sách toàn bộ tài khoản (Admin) |
 | `GET` | `/api/v1/dashboard/overview` | Lấy dữ liệu thống kê tổng quan, biểu đồ doanh thu và tỷ lệ lấp đầy |
 
-### 4.4. Lộ trình Thực hiện 4 Tuần của Trang
+### 4.4. Lộ trình Thực hiện của Trang
 
-- **Tuần 1:** Tạo repository, phân quyền Git, khởi tạo CSDL MySQL với 11 bảng chuẩn DDL. Thiết kế Wireframe UI trên Figma cùng nhóm.
-- **Tuần 2:** Phát triển API & UI cho Đăng ký, Đăng nhập (JWT), Quên mật khẩu OTP, Phân quyền Admin/Tenant.
-- **Tuần 3:** Phát triển API & UI Báo cáo Dashboard (Biểu đồ doanh thu, tỷ lệ lấp đầy, dư nợ).
-- **Tuần 4:** Merge code vào branch `develop` và `main`, kiểm thử tích hợp (Integration Test), fix bug, đóng gói source code, chuẩn bị Slide và Video Demo.
+- Tạo repository, phân quyền Git, khởi tạo CSDL MySQL với 11 bảng chuẩn DDL. Thiết kế Wireframe UI trên Figma cùng nhóm.
+- Phát triển API & UI cho Đăng ký, Đăng nhập (JWT), Quên mật khẩu OTP, Phân quyền Admin/Tenant.
+- Phát triển API & UI Báo cáo Dashboard (Biểu đồ doanh thu, tỷ lệ lấp đầy, dư nợ).
+-  Merge code vào branch `develop` và `main`, kiểm thử tích hợp (Integration Test), fix bug.
 
 ------
 
 # II. ĐÃ LÀM VÀ CHUẨN BỊ LÀM
+
 ## 1. KẾT QUẢ ĐÃ HOÀN THÀNH
 
 ### Khởi tạo Cấu trúc & Chuẩn bị Context
@@ -100,10 +109,10 @@ Hệ thống Web Quản lý Phòng trọ nhằm tự động hóa quy trình qu�
 - Đã thiết lập quy trình merge code từ nhánh cá nhân sang `develop` và push an toàn lên Server (`origin`).
 
 ### Tạo UI bằng Figma
-- Tạo giao diện đăng nhập, phân quền, dashboard.....
+- Tạo giao diện đăng nhập, phân quyền, dashboard.....
 
 ## 2. CHUẨN BỊ LÀM
-- **Giai đoạn tiếp theo (Bước 3 - Coding with AI):**
+- **Giai đoạn tiếp theo
   - Tiến hành ra lệnh (Prompt) cho Cody AI sinh mã nguồn backend cho Module Auth của Trang:
     1. Cấu hình kết nối MySQL (`backend/src/config/db.ts`).
     2. Định nghĩa DTOs & TypeScript Types (`backend/src/types/auth.ts`).
